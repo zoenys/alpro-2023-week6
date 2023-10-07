@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:tomato;
+    text-align: center;
+}
+
+h3{
+    margin: auto;
+    color:#333;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.element {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+#textInput {
+    margin-bottom: 10px; 
+}
+
+
+#submitButton {
+    background-color: tomato; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 250px;
+}
+
+#textInput{
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 2px solid #d97949;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 16px;
+    color: #333;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid gray;
+}
+
+th {
+    background-color: tomato;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid gray;
+}
